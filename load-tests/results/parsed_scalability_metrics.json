@@ -1,0 +1,462 @@
+[
+  {
+    "vus": 150,
+    "totalRequests": 3549,
+    "throughputRps": 57.21,
+    "errorRatePercent": 0,
+    "latency": {
+      "avgMs": 1226.1,
+      "minMs": 124.22,
+      "medMs": 1077.31,
+      "p90Ms": 1973.36,
+      "p95Ms": 2015.77,
+      "p99Ms": 3430.59,
+      "maxMs": 8856.17
+    },
+    "checks": [
+      {
+        "check": "create ticket status is 201",
+        "passes": 189,
+        "fails": 0
+      },
+      {
+        "check": "create ticket returns _id",
+        "passes": 189,
+        "fails": 0
+      },
+      {
+        "check": "list tickets status is 200",
+        "passes": 659,
+        "fails": 0
+      },
+      {
+        "check": "filter status is 200",
+        "passes": 72,
+        "fails": 0
+      },
+      {
+        "check": "search status is 200",
+        "passes": 102,
+        "fails": 0
+      },
+      {
+        "check": "search returns results array",
+        "passes": 102,
+        "fails": 0
+      },
+      {
+        "check": "report resolved-per-agent is 200",
+        "passes": 88,
+        "fails": 0
+      },
+      {
+        "check": "get comments status is 200",
+        "passes": 477,
+        "fails": 0
+      },
+      {
+        "check": "comments list is array",
+        "passes": 477,
+        "fails": 0
+      },
+      {
+        "check": "add comment status is 201",
+        "passes": 151,
+        "fails": 0
+      },
+      {
+        "check": "update ticket status is 200",
+        "passes": 149,
+        "fails": 0
+      },
+      {
+        "check": "read ticket status is 200",
+        "passes": 659,
+        "fails": 0
+      },
+      {
+        "check": "read ticket contains id",
+        "passes": 659,
+        "fails": 0
+      },
+      {
+        "check": "report avg-resolution-time is 200",
+        "passes": 88,
+        "fails": 0
+      },
+      {
+        "check": "report ticket-list-with-comment-counts is 200",
+        "passes": 88,
+        "fails": 0
+      }
+    ]
+  },
+  {
+    "vus": 250,
+    "totalRequests": 4157,
+    "throughputRps": 64.36,
+    "errorRatePercent": 0,
+    "latency": {
+      "avgMs": 1987.86,
+      "minMs": 127.55,
+      "medMs": 2037.91,
+      "p90Ms": 3014.22,
+      "p95Ms": 3106.99,
+      "p99Ms": 3883.37,
+      "maxMs": 7037.93
+    },
+    "checks": [
+      {
+        "check": "create ticket status is 201",
+        "passes": 240,
+        "fails": 0
+      },
+      {
+        "check": "create ticket returns _id",
+        "passes": 240,
+        "fails": 0
+      },
+      {
+        "check": "report resolved-per-agent is 200",
+        "passes": 91,
+        "fails": 0
+      },
+      {
+        "check": "list tickets status is 200",
+        "passes": 785,
+        "fails": 0
+      },
+      {
+        "check": "filter status is 200",
+        "passes": 128,
+        "fails": 0
+      },
+      {
+        "check": "search status is 200",
+        "passes": 120,
+        "fails": 0
+      },
+      {
+        "check": "search returns results array",
+        "passes": 120,
+        "fails": 0
+      },
+      {
+        "check": "report avg-resolution-time is 200",
+        "passes": 91,
+        "fails": 0
+      },
+      {
+        "check": "update ticket status is 200",
+        "passes": 192,
+        "fails": 0
+      },
+      {
+        "check": "get comments status is 200",
+        "passes": 539,
+        "fails": 0
+      },
+      {
+        "check": "comments list is array",
+        "passes": 539,
+        "fails": 0
+      },
+      {
+        "check": "add comment status is 201",
+        "passes": 157,
+        "fails": 0
+      },
+      {
+        "check": "read ticket status is 200",
+        "passes": 785,
+        "fails": 0
+      },
+      {
+        "check": "read ticket contains id",
+        "passes": 785,
+        "fails": 0
+      },
+      {
+        "check": "report ticket-list-with-comment-counts is 200",
+        "passes": 91,
+        "fails": 0
+      }
+    ]
+  },
+  {
+    "vus": 500,
+    "totalRequests": 4880,
+    "throughputRps": 75.32,
+    "errorRatePercent": 0,
+    "latency": {
+      "avgMs": 3955.38,
+      "minMs": 128.93,
+      "medMs": 4649.93,
+      "p90Ms": 5906.76,
+      "p95Ms": 5998.37,
+      "p99Ms": 6147.31,
+      "maxMs": 10005.32
+    },
+    "checks": [
+      {
+        "check": "create ticket status is 201",
+        "passes": 248,
+        "fails": 0
+      },
+      {
+        "check": "create ticket returns _id",
+        "passes": 248,
+        "fails": 0
+      },
+      {
+        "check": "search status is 200",
+        "passes": 142,
+        "fails": 0
+      },
+      {
+        "check": "search returns results array",
+        "passes": 142,
+        "fails": 0
+      },
+      {
+        "check": "list tickets status is 200",
+        "passes": 932,
+        "fails": 0
+      },
+      {
+        "check": "report resolved-per-agent is 200",
+        "passes": 119,
+        "fails": 0
+      },
+      {
+        "check": "get comments status is 200",
+        "passes": 635,
+        "fails": 0
+      },
+      {
+        "check": "comments list is array",
+        "passes": 635,
+        "fails": 0
+      },
+      {
+        "check": "update ticket status is 200",
+        "passes": 205,
+        "fails": 0
+      },
+      {
+        "check": "read ticket status is 200",
+        "passes": 932,
+        "fails": 0
+      },
+      {
+        "check": "read ticket contains id",
+        "passes": 932,
+        "fails": 0
+      },
+      {
+        "check": "add comment status is 201",
+        "passes": 200,
+        "fails": 0
+      },
+      {
+        "check": "report avg-resolution-time is 200",
+        "passes": 119,
+        "fails": 0
+      },
+      {
+        "check": "filter status is 200",
+        "passes": 139,
+        "fails": 0
+      },
+      {
+        "check": "report ticket-list-with-comment-counts is 200",
+        "passes": 119,
+        "fails": 0
+      }
+    ]
+  },
+  {
+    "vus": 750,
+    "totalRequests": 5644,
+    "throughputRps": 83.8,
+    "errorRatePercent": 0,
+    "latency": {
+      "avgMs": 5446.06,
+      "minMs": 126.01,
+      "medMs": 6205.63,
+      "p90Ms": 8003.19,
+      "p95Ms": 8098.45,
+      "p99Ms": 8844.4,
+      "maxMs": 12116.22
+    },
+    "checks": [
+      {
+        "check": "create ticket status is 201",
+        "passes": 307,
+        "fails": 0
+      },
+      {
+        "check": "create ticket returns _id",
+        "passes": 307,
+        "fails": 0
+      },
+      {
+        "check": "report resolved-per-agent is 200",
+        "passes": 164,
+        "fails": 0
+      },
+      {
+        "check": "report avg-resolution-time is 200",
+        "passes": 164,
+        "fails": 0
+      },
+      {
+        "check": "list tickets status is 200",
+        "passes": 1065,
+        "fails": 0
+      },
+      {
+        "check": "get comments status is 200",
+        "passes": 718,
+        "fails": 0
+      },
+      {
+        "check": "comments list is array",
+        "passes": 718,
+        "fails": 0
+      },
+      {
+        "check": "search status is 200",
+        "passes": 144,
+        "fails": 0
+      },
+      {
+        "check": "search returns results array",
+        "passes": 144,
+        "fails": 0
+      },
+      {
+        "check": "add comment status is 201",
+        "passes": 194,
+        "fails": 0
+      },
+      {
+        "check": "update ticket status is 200",
+        "passes": 258,
+        "fails": 0
+      },
+      {
+        "check": "filter status is 200",
+        "passes": 181,
+        "fails": 0
+      },
+      {
+        "check": "read ticket status is 200",
+        "passes": 1065,
+        "fails": 0
+      },
+      {
+        "check": "read ticket contains id",
+        "passes": 1065,
+        "fails": 0
+      },
+      {
+        "check": "report ticket-list-with-comment-counts is 200",
+        "passes": 164,
+        "fails": 0
+      }
+    ]
+  },
+  {
+    "vus": 1000,
+    "totalRequests": 6521,
+    "throughputRps": 93.83,
+    "errorRatePercent": 0,
+    "latency": {
+      "avgMs": 6556.3,
+      "minMs": 129.99,
+      "medMs": 7130.8,
+      "p90Ms": 9659.39,
+      "p95Ms": 9954.76,
+      "p99Ms": 10165.58,
+      "maxMs": 14980.62
+    },
+    "checks": [
+      {
+        "check": "report resolved-per-agent is 200",
+        "passes": 158,
+        "fails": 0
+      },
+      {
+        "check": "create ticket status is 201",
+        "passes": 364,
+        "fails": 0
+      },
+      {
+        "check": "create ticket returns _id",
+        "passes": 364,
+        "fails": 0
+      },
+      {
+        "check": "report avg-resolution-time is 200",
+        "passes": 158,
+        "fails": 0
+      },
+      {
+        "check": "list tickets status is 200",
+        "passes": 1226,
+        "fails": 0
+      },
+      {
+        "check": "search status is 200",
+        "passes": 173,
+        "fails": 0
+      },
+      {
+        "check": "search returns results array",
+        "passes": 173,
+        "fails": 0
+      },
+      {
+        "check": "filter status is 200",
+        "passes": 170,
+        "fails": 0
+      },
+      {
+        "check": "update ticket status is 200",
+        "passes": 296,
+        "fails": 0
+      },
+      {
+        "check": "add comment status is 201",
+        "passes": 267,
+        "fails": 0
+      },
+      {
+        "check": "get comments status is 200",
+        "passes": 856,
+        "fails": 0
+      },
+      {
+        "check": "comments list is array",
+        "passes": 856,
+        "fails": 0
+      },
+      {
+        "check": "read ticket status is 200",
+        "passes": 1226,
+        "fails": 0
+      },
+      {
+        "check": "read ticket contains id",
+        "passes": 1226,
+        "fails": 0
+      },
+      {
+        "check": "report ticket-list-with-comment-counts is 200",
+        "passes": 158,
+        "fails": 0
+      }
+    ]
+  }
+]

@@ -201,3 +201,13 @@ Runs a controlled scenario to compare system behavior and baseline response time
 ```bash
 k6 run load-tests/break_it_control_test.js
 ```
+
+### 4. Extended Concurrency Suite (150 to 1,000 VUs with Live Telemetry)
+Executes an automated multi-tier sweep across 150, 250, 500, 750, and 1,000 concurrent VUs while capturing live Node.js process CPU, RSS/Heap memory, MongoDB connection pool utilization, and P99 latency:
+
+```bash
+node load-tests/run_extended_benchmarks.js
+```
+
+Full benchmark analysis, telemetry charts, and degradation findings are detailed in [SCALABILITY_ANALYSIS_REPORT.md](./SCALABILITY_ANALYSIS_REPORT.md).
+

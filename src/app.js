@@ -17,9 +17,20 @@ app.use('/tickets', ticketRoutes);
 app.use('/comments', commentRoutes);
 app.use('/reports', reportRoutes);
 
+const { getMetrics, resetPeakMetrics } = require('./utils/telemetry');
+
 // Simple health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date() });
+});
+
+// Telemetry & Resource Utilization Metrics (CPU, Memory, DB Connection Pool)
+app.get('/metrics', (req, res) => {
+  res.json(getMetrics());
+});
+
+app.post('/metrics/reset', (req, res) => {
+  res.json(resetPeakMetrics());
 });
 
 // Handle 404

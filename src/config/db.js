@@ -1,4 +1,7 @@
+const dns = require('dns');
+dns.setServers(['8.8.8.8', '1.1.1.1']);
 const mongoose = require('mongoose');
+const { initTelemetry } = require('../utils/telemetry');
 
 const connectDB = async () => {
   try {
@@ -11,6 +14,7 @@ const connectDB = async () => {
       w: 1,
     });
     console.log(`MongoDB Connected: ${conn.connection.host}`);
+    initTelemetry();
   } catch (error) {
     console.error(`MongoDB Connection Error: ${error.message}`);
     process.exit(1);
@@ -18,3 +22,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
